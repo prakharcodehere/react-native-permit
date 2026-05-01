@@ -1,0 +1,48 @@
+<svg width="1120" height="620" viewBox="0 0 1120 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">UI selection</title>
+  <desc id="desc">Decision diagram for choosing custom UI, modal, bottom sheet, screen, or inline permission UI.</desc>
+  <rect width="1120" height="620" rx="28" fill="#0F172A"/>
+  <text x="56" y="66" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui" font-size="34" font-weight="800">Choose the permission UI</text>
+  <text x="56" y="100" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui" font-size="18">Use built-in UI for speed, or headless hooks when your design system owns the flow.</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui">
+    <rect x="56" y="156" width="250" height="86" rx="20" fill="#1E293B" stroke="#475569"/>
+    <text x="181" y="190" text-anchor="middle" fill="#F8FAFC" font-size="18" font-weight="800">Need full control?</text>
+    <text x="181" y="216" text-anchor="middle" fill="#CBD5E1" font-size="13">animations, brand, custom layout</text>
+
+    <rect x="430" y="132" width="260" height="106" rx="22" fill="#581C87" stroke="#C084FC"/>
+    <text x="560" y="174" text-anchor="middle" fill="#F3E8FF" font-size="20" font-weight="800">Custom UI</text>
+    <text x="560" y="203" text-anchor="middle" fill="#E9D5FF" font-size="14">usePermit / usePermitSequence</text>
+
+    <rect x="430" y="322" width="260" height="106" rx="22" fill="#172554" stroke="#60A5FA"/>
+    <text x="560" y="364" text-anchor="middle" fill="#DBEAFE" font-size="20" font-weight="800">Built-in UI</text>
+    <text x="560" y="393" text-anchor="middle" fill="#BFDBFE" font-size="14">PermitDialog + PermitStepper</text>
+
+    <rect x="796" y="166" width="124" height="70" rx="18" fill="#DBEAFE"/>
+    <text x="858" y="207" text-anchor="middle" fill="#1E40AF" font-size="17" font-weight="800">modal</text>
+
+    <rect x="944" y="166" width="124" height="70" rx="18" fill="#DCFCE7"/>
+    <text x="1006" y="198" text-anchor="middle" fill="#166534" font-size="17" font-weight="800">bottom</text>
+    <text x="1006" y="217" text-anchor="middle" fill="#166534" font-size="17" font-weight="800">sheet</text>
+
+    <rect x="796" y="328" width="124" height="70" rx="18" fill="#FEF3C7"/>
+    <text x="858" y="369" text-anchor="middle" fill="#92400E" font-size="17" font-weight="800">screen</text>
+
+    <rect x="944" y="328" width="124" height="70" rx="18" fill="#FCE7F3"/>
+    <text x="1006" y="369" text-anchor="middle" fill="#BE185D" font-size="17" font-weight="800">inline</text>
+
+    <rect x="122" y="468" width="876" height="54" rx="27" fill="#111827" stroke="#334155"/>
+    <text x="560" y="502" text-anchor="middle" fill="#CBD5E1" font-size="16">modal = focused prompt • bottom-sheet = mobile rationale • screen = onboarding • inline = embedded card</text>
+  </g>
+
+  <path d="M306 198H424" stroke="#A78BFA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M414 188L426 198L414 208" stroke="#A78BFA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="360" y="180" text-anchor="middle" fill="#C4B5FD" font-family="Inter, ui-sans-serif, system-ui" font-size="13" font-weight="700">yes</text>
+
+  <path d="M181 242V374H424" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M414 364L426 374L414 384" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="210" y="312" fill="#93C5FD" font-family="Inter, ui-sans-serif, system-ui" font-size="13" font-weight="700">no, use a primitive</text>
+
+  <path d="M690 375H790" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M780 365L792 375L780 385" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

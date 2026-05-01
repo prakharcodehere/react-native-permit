@@ -385,6 +385,10 @@ return (
 
 ## Result values
 
+<p align="center">
+  <img src="./assets/permission-decisions.svg" alt="Permission result decisions and blocked versus denied behavior" width="920" />
+</p>
+
 | Result | Meaning |
 | --- | --- |
 | `granted` | Permission is fully granted |
@@ -740,7 +744,7 @@ The package includes lightweight UI primitives. They are intentionally small and
 unstyled enough to fit most apps.
 
 <p align="center">
-  <img src="./assets/ui-modes.svg" alt="Built-in permission UI modes" width="920" />
+  <img src="./assets/ui-selection.svg" alt="Permission UI selection guide" width="920" />
 </p>
 
 ### `PermitDialog`
