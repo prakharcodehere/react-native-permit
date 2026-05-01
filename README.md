@@ -221,25 +221,6 @@ Supported presentations:
 
 See [API reference](./docs/API.md) for details.
 
-## Package Size
-
-`react-native-permit` is intentionally small. It does not ship native iOS or
-Android code; native access stays in the `react-native-permissions` peer
-dependency.
-
-Published package contents are limited to runtime files, docs, and assets:
-
-- `dist`
-- `assets`
-- `docs`
-- `README.md`
-- `LICENSE`
-- `CHANGELOG.md`
-- `package.json`
-
-Development-only files such as `src`, `example`, and `PACKAGE.md` are kept in
-the GitHub repository but excluded from the npm tarball.
-
 ## Contributing
 
 Issues, ideas, docs fixes, examples, and pull requests are welcome.

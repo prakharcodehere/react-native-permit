@@ -1,106 +1,94 @@
-<svg width="1120" height="920" viewBox="0 0 1120 920" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1120" height="760" viewBox="0 0 1120 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">react-native-permit comparison</title>
-  <desc id="desc">Detailed comparison table showing why react-native-permit is useful on top of react-native-permissions: hooks, retries, UI, onboarding, analytics, persistence, and testing.</desc>
-  <rect width="1120" height="920" rx="30" fill="#F8FAFC"/>
+  <desc id="desc">A clean comparison showing that react-native-permissions handles native OS access while react-native-permit adds hooks, retries, UI, onboarding, analytics, persistence, and tests.</desc>
+  <rect width="1120" height="760" rx="30" fill="#F8FAFC"/>
 
   <g font-family="Inter, ui-sans-serif, system-ui">
-    <text x="56" y="64" fill="#0F172A" font-size="34" font-weight="800">Why react-native-permit wins the app layer</text>
-    <text x="56" y="98" fill="#475569" font-size="18">react-native-permissions talks to the OS. react-native-permit handles the user journey around it.</text>
+    <text x="56" y="62" fill="#0F172A" font-size="32" font-weight="800">Native prompt vs product-ready permission flow</text>
+    <text x="56" y="96" fill="#475569" font-size="18">Use react-native-permissions for OS access. Use react-native-permit for the app experience around it.</text>
 
-    <rect x="56" y="136" width="296" height="300" rx="24" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
-    <rect x="84" y="164" width="60" height="60" rx="18" fill="#2563EB"/>
-    <path d="M101 194L113 206L132 181" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="84" y="260" fill="#1E3A8A" font-size="22" font-weight="800">react-native-permissions</text>
-    <text x="84" y="292" fill="#1D4ED8" font-size="15" font-weight="800">Native access layer</text>
-    <text x="84" y="330" fill="#334155" font-size="15">check / request / openSettings</text>
-    <text x="84" y="358" fill="#334155" font-size="15">platform constants</text>
-    <text x="84" y="386" fill="#334155" font-size="15">notification APIs</text>
-    <rect x="84" y="404" width="190" height="34" rx="17" fill="#DBEAFE"/>
-    <text x="179" y="426" text-anchor="middle" fill="#1D4ED8" font-size="13" font-weight="800">required native peer</text>
+    <rect x="56" y="136" width="302" height="220" rx="22" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
+    <rect x="84" y="164" width="52" height="52" rx="16" fill="#2563EB"/>
+    <path d="M99 190L110 201L127 178" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="248" fill="#1E3A8A" font-size="20" font-weight="800">react-native-permissions</text>
+    <text x="84" y="278" fill="#1D4ED8" font-size="14" font-weight="800">Native access</text>
+    <text x="84" y="310" fill="#334155" font-size="14">check, request, settings, constants</text>
+    <rect x="84" y="326" width="142" height="30" rx="15" fill="#DBEAFE"/>
+    <text x="155" y="346" text-anchor="middle" fill="#1D4ED8" font-size="12" font-weight="800">peer dependency</text>
 
-    <rect x="412" y="136" width="296" height="300" rx="24" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
-    <rect x="440" y="164" width="60" height="60" rx="18" fill="#EA580C"/>
-    <path d="M459 188H482" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
-    <path d="M459 207H482" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
-    <text x="440" y="260" fill="#7C2D12" font-size="22" font-weight="800">Manual app code</text>
-    <text x="440" y="292" fill="#C2410C" font-size="15" font-weight="800">The repeated product work</text>
-    <text x="440" y="330" fill="#334155" font-size="15">retry counters</text>
-    <text x="440" y="358" fill="#334155" font-size="15">blocked Settings fallbacks</text>
-    <text x="440" y="386" fill="#334155" font-size="15">rationale UI and tests</text>
-    <rect x="440" y="404" width="190" height="34" rx="17" fill="#FFEDD5"/>
-    <text x="535" y="426" text-anchor="middle" fill="#C2410C" font-size="13" font-weight="800">you keep rebuilding it</text>
+    <rect x="409" y="136" width="302" height="220" rx="22" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+    <rect x="437" y="164" width="52" height="52" rx="16" fill="#EA580C"/>
+    <path d="M454 184H472" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M454 199H472" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+    <text x="437" y="248" fill="#7C2D12" font-size="20" font-weight="800">Manual app code</text>
+    <text x="437" y="278" fill="#C2410C" font-size="14" font-weight="800">Repeated glue</text>
+    <text x="437" y="310" fill="#334155" font-size="14">retry state, UI, settings fallback, tests</text>
+    <rect x="437" y="326" width="134" height="30" rx="15" fill="#FFEDD5"/>
+    <text x="504" y="346" text-anchor="middle" fill="#C2410C" font-size="12" font-weight="800">you write it</text>
 
-    <rect x="768" y="136" width="296" height="300" rx="24" fill="#ECFDF5" stroke="#BBF7D0" stroke-width="2"/>
-    <rect x="796" y="164" width="60" height="60" rx="18" fill="#059669"/>
-    <path d="M813 195L825 207L845 181" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="796" y="260" fill="#064E3B" font-size="22" font-weight="800">react-native-permit</text>
-    <text x="796" y="292" fill="#047857" font-size="15" font-weight="800">Product permission layer</text>
-    <text x="796" y="330" fill="#334155" font-size="15">hooks + sequences</text>
-    <text x="796" y="358" fill="#334155" font-size="15">retry + persisted exhaustion</text>
-    <text x="796" y="386" fill="#334155" font-size="15">modal/sheet/screen/inline UI</text>
-    <rect x="796" y="404" width="190" height="34" rx="17" fill="#D1FAE5"/>
-    <text x="891" y="426" text-anchor="middle" fill="#047857" font-size="13" font-weight="800">provided here</text>
+    <rect x="762" y="136" width="302" height="220" rx="22" fill="#ECFDF5" stroke="#BBF7D0" stroke-width="2"/>
+    <rect x="790" y="164" width="52" height="52" rx="16" fill="#059669"/>
+    <path d="M805 191L816 202L833 178" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="790" y="248" fill="#064E3B" font-size="20" font-weight="800">react-native-permit</text>
+    <text x="790" y="278" fill="#047857" font-size="14" font-weight="800">Permission UX layer</text>
+    <text x="790" y="310" fill="#334155" font-size="14">hooks, retries, onboarding, UI, mocks</text>
+    <rect x="790" y="326" width="134" height="30" rx="15" fill="#D1FAE5"/>
+    <text x="857" y="346" text-anchor="middle" fill="#047857" font-size="12" font-weight="800">included</text>
   </g>
 
-  <path d="M352 286H406" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
-  <path d="M396 276L408 286L396 296" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M708 286H762" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
-  <path d="M752 276L764 286L752 296" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M358 246H402" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M392 236L404 246L392 256" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M711 246H755" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M745 236L757 246L745 256" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
   <g font-family="Inter, ui-sans-serif, system-ui">
-    <text x="56" y="502" fill="#0F172A" font-size="25" font-weight="800">Capability table</text>
-    <text x="56" y="530" fill="#64748B" font-size="15">This is the part most apps otherwise build by hand.</text>
+    <text x="56" y="420" fill="#0F172A" font-size="24" font-weight="800">What you get on top</text>
+    <text x="56" y="448" fill="#64748B" font-size="15">The package sells the product layer most teams build after the first permission prompt.</text>
 
-    <rect x="56" y="556" width="1008" height="258" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
-    <rect x="56" y="556" width="1008" height="46" rx="18" fill="#0F172A"/>
-    <path d="M56 584H1064" stroke="#0F172A" stroke-width="46"/>
+    <rect x="56" y="474" width="1008" height="206" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="56" y="474" width="1008" height="42" rx="18" fill="#0F172A"/>
+    <path d="M56 496H1064" stroke="#0F172A" stroke-width="42"/>
 
-    <text x="86" y="586" fill="#F8FAFC" font-size="14" font-weight="800">Capability</text>
-    <text x="402" y="586" text-anchor="middle" fill="#DBEAFE" font-size="14" font-weight="800">react-native-permissions</text>
-    <text x="650" y="586" text-anchor="middle" fill="#FED7AA" font-size="14" font-weight="800">Manual app code</text>
-    <text x="910" y="586" text-anchor="middle" fill="#BBF7D0" font-size="14" font-weight="800">react-native-permit</text>
+    <text x="84" y="502" fill="#F8FAFC" font-size="13" font-weight="800">Capability</text>
+    <text x="445" y="502" text-anchor="middle" fill="#DBEAFE" font-size="13" font-weight="800">raw native package</text>
+    <text x="655" y="502" text-anchor="middle" fill="#FED7AA" font-size="13" font-weight="800">manual code</text>
+    <text x="918" y="502" text-anchor="middle" fill="#BBF7D0" font-size="13" font-weight="800">react-native-permit</text>
 
-    <path d="M330 556V814" stroke="#CBD5E1"/>
-    <path d="M510 556V814" stroke="#CBD5E1"/>
-    <path d="M790 556V814" stroke="#CBD5E1"/>
-    <path d="M56 602H1064" stroke="#CBD5E1"/>
-    <path d="M56 638H1064" stroke="#E2E8F0"/>
-    <path d="M56 674H1064" stroke="#E2E8F0"/>
-    <path d="M56 710H1064" stroke="#E2E8F0"/>
-    <path d="M56 746H1064" stroke="#E2E8F0"/>
-    <path d="M56 782H1064" stroke="#E2E8F0"/>
+    <path d="M348 474V680" stroke="#CBD5E1"/>
+    <path d="M542 474V680" stroke="#CBD5E1"/>
+    <path d="M768 474V680" stroke="#CBD5E1"/>
+    <path d="M56 516H1064" stroke="#CBD5E1"/>
+    <path d="M56 548H1064" stroke="#E2E8F0"/>
+    <path d="M56 580H1064" stroke="#E2E8F0"/>
+    <path d="M56 612H1064" stroke="#E2E8F0"/>
+    <path d="M56 644H1064" stroke="#E2E8F0"/>
 
-    <text x="86" y="625" fill="#334155" font-size="14">Native permission check/request</text>
-    <text x="402" y="625" text-anchor="middle" fill="#16A34A" font-size="14" font-weight="800">Yes</text>
-    <text x="650" y="625" text-anchor="middle" fill="#DC2626" font-size="14" font-weight="800">No</text>
-    <text x="910" y="625" text-anchor="middle" fill="#16A34A" font-size="14" font-weight="800">Via peer</text>
+    <text x="84" y="537" fill="#334155" font-size="13">Native check/request/settings</text>
+    <text x="445" y="537" text-anchor="middle" fill="#16A34A" font-size="13" font-weight="800">Yes</text>
+    <text x="655" y="537" text-anchor="middle" fill="#DC2626" font-size="13" font-weight="800">No</text>
+    <text x="918" y="537" text-anchor="middle" fill="#16A34A" font-size="13" font-weight="800">Via peer</text>
 
-    <text x="86" y="661" fill="#334155" font-size="14">Hooks for single and multiple permissions</text>
-    <text x="402" y="661" text-anchor="middle" fill="#64748B" font-size="14">Low-level</text>
-    <text x="650" y="661" text-anchor="middle" fill="#C2410C" font-size="14" font-weight="800">You write it</text>
-    <text x="910" y="661" text-anchor="middle" fill="#16A34A" font-size="14" font-weight="800">usePermit / usePermits</text>
+    <text x="84" y="569" fill="#334155" font-size="13">React hooks and foreground re-check</text>
+    <text x="445" y="569" text-anchor="middle" fill="#64748B" font-size="13">Low-level</text>
+    <text x="655" y="569" text-anchor="middle" fill="#C2410C" font-size="13" font-weight="800">You write it</text>
+    <text x="918" y="569" text-anchor="middle" fill="#16A34A" font-size="13" font-weight="800">usePermit / usePermits</text>
 
-    <text x="86" y="697" fill="#334155" font-size="14">Retry attempts and exhausted state</text>
-    <text x="402" y="697" text-anchor="middle" fill="#DC2626" font-size="14" font-weight="800">No</text>
-    <text x="650" y="697" text-anchor="middle" fill="#C2410C" font-size="14" font-weight="800">You write it</text>
-    <text x="910" y="697" text-anchor="middle" fill="#16A34A" font-size="14" font-weight="800">Built in</text>
+    <text x="84" y="601" fill="#334155" font-size="13">Retry, cooldown, persisted exhaustion</text>
+    <text x="445" y="601" text-anchor="middle" fill="#DC2626" font-size="13" font-weight="800">No</text>
+    <text x="655" y="601" text-anchor="middle" fill="#C2410C" font-size="13" font-weight="800">You write it</text>
+    <text x="918" y="601" text-anchor="middle" fill="#16A34A" font-size="13" font-weight="800">Built in</text>
 
-    <text x="86" y="733" fill="#334155" font-size="14">Permission onboarding and stepper</text>
-    <text x="402" y="733" text-anchor="middle" fill="#DC2626" font-size="14" font-weight="800">No</text>
-    <text x="650" y="733" text-anchor="middle" fill="#C2410C" font-size="14" font-weight="800">You write it</text>
-    <text x="910" y="733" text-anchor="middle" fill="#16A34A" font-size="14" font-weight="800">Sequence + Stepper</text>
+    <text x="84" y="633" fill="#334155" font-size="13">Onboarding, stepper, modal/sheet/screen UI</text>
+    <text x="445" y="633" text-anchor="middle" fill="#DC2626" font-size="13" font-weight="800">No</text>
+    <text x="655" y="633" text-anchor="middle" fill="#C2410C" font-size="13" font-weight="800">You write it</text>
+    <text x="918" y="633" text-anchor="middle" fill="#16A34A" font-size="13" font-weight="800">Included</text>
 
-    <text x="86" y="769" fill="#334155" font-size="14">Modal, bottom sheet, screen, inline UI</text>
-    <text x="402" y="769" text-anchor="middle" fill="#DC2626" font-size="14" font-weight="800">No</text>
-    <text x="650" y="769" text-anchor="middle" fill="#C2410C" font-size="14" font-weight="800">You write it</text>
-    <text x="910" y="769" text-anchor="middle" fill="#16A34A" font-size="14" font-weight="800">PermitDialog</text>
+    <text x="84" y="665" fill="#334155" font-size="13">Analytics events, storage adapter, Jest mocks</text>
+    <text x="445" y="665" text-anchor="middle" fill="#DC2626" font-size="13" font-weight="800">No</text>
+    <text x="655" y="665" text-anchor="middle" fill="#C2410C" font-size="13" font-weight="800">You write it</text>
+    <text x="918" y="665" text-anchor="middle" fill="#16A34A" font-size="13" font-weight="800">Included</text>
 
-    <text x="86" y="805" fill="#334155" font-size="14">Analytics, persistence, Jest mocks</text>
-    <text x="402" y="805" text-anchor="middle" fill="#DC2626" font-size="14" font-weight="800">No</text>
-    <text x="650" y="805" text-anchor="middle" fill="#C2410C" font-size="14" font-weight="800">You write it</text>
-    <text x="910" y="805" text-anchor="middle" fill="#16A34A" font-size="14" font-weight="800">Included</text>
-
-    <rect x="92" y="846" width="936" height="46" rx="23" fill="#0F172A"/>
-    <text x="560" y="875" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="800">Use react-native-permit when permission access is easy, but permission UX is getting expensive.</text>
+    <rect x="92" y="704" width="936" height="38" rx="19" fill="#0F172A"/>
+    <text x="560" y="728" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="800">Permission access is easy. Permission UX is where apps lose time.</text>
   </g>
 </svg>
