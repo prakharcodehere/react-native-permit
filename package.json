@@ -1,6 +1,6 @@
 {
   "name": "react-native-permit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native permission hooks, modal UI, bottom sheet, screen flows, retry logic, onboarding stepper, and Jest mocks built on react-native-permissions.",
   "author": {
     "name": "prakharcodehere",
@@ -152,8 +152,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "engines": {
     "node": ">=16"

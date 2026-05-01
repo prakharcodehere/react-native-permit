@@ -2,6 +2,11 @@
 
 All notable changes to `react-native-permit` will be documented in this file.
 
+## 0.1.1
+
+- Removed local publish provenance requirement so `npm publish` works from a developer terminal.
+- Kept package contents and public API unchanged from `0.1.0`.
+
 ## 0.1.0
 
 - Initial package metadata and build setup.
