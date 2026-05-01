@@ -1,0 +1,48 @@
+<svg width="1120" height="540" viewBox="0 0 1120 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Multi permission flow</title>
+  <desc id="desc">Multi permission onboarding flow showing start, camera, microphone, optional notifications, results, and completion.</desc>
+  <rect width="1120" height="540" rx="28" fill="#F8FAFC"/>
+  <text x="56" y="66" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui" font-size="34" font-weight="800">Multi-permission flow</text>
+  <text x="56" y="100" fill="#475569" font-family="Inter, ui-sans-serif, system-ui" font-size="18">Use usePermitSequence for onboarding flows with required and optional permissions.</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui">
+    <rect x="56" y="168" width="150" height="82" rx="18" fill="#DBEAFE" stroke="#2563EB"/>
+    <text x="131" y="202" text-anchor="middle" fill="#1E40AF" font-size="18" font-weight="800">Start</text>
+    <text x="131" y="226" text-anchor="middle" fill="#1D4ED8" font-size="13">sequence.start()</text>
+
+    <rect x="274" y="144" width="180" height="130" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="364" y="178" text-anchor="middle" fill="#0F172A" font-size="18" font-weight="800">Camera</text>
+    <text x="364" y="204" text-anchor="middle" fill="#475569" font-size="13">required</text>
+    <rect x="318" y="222" width="92" height="28" rx="14" fill="#DCFCE7"/>
+    <text x="364" y="241" text-anchor="middle" fill="#15803D" font-size="12" font-weight="700">granted</text>
+
+    <rect x="522" y="144" width="180" height="130" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="612" y="178" text-anchor="middle" fill="#0F172A" font-size="18" font-weight="800">Microphone</text>
+    <text x="612" y="204" text-anchor="middle" fill="#475569" font-size="13">required</text>
+    <rect x="566" y="222" width="92" height="28" rx="14" fill="#DCFCE7"/>
+    <text x="612" y="241" text-anchor="middle" fill="#15803D" font-size="12" font-weight="700">granted</text>
+
+    <rect x="770" y="144" width="180" height="130" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="860" y="178" text-anchor="middle" fill="#0F172A" font-size="18" font-weight="800">Notifications</text>
+    <text x="860" y="204" text-anchor="middle" fill="#475569" font-size="13">optional</text>
+    <rect x="804" y="222" width="112" height="28" rx="14" fill="#FEF3C7"/>
+    <text x="860" y="241" text-anchor="middle" fill="#B45309" font-size="12" font-weight="700">skip allowed</text>
+
+    <rect x="402" y="352" width="316" height="94" rx="20" fill="#0F172A"/>
+    <text x="560" y="390" text-anchor="middle" fill="#F8FAFC" font-size="20" font-weight="800">Complete</text>
+    <text x="560" y="420" text-anchor="middle" fill="#CBD5E1" font-size="14">results: camera, microphone, notifications</text>
+  </g>
+
+  <path d="M206 209H268" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M258 199L270 209L258 219" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M454 209H516" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M506 199L518 209L506 219" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M702 209H764" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M754 199L766 209L754 219" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M860 274V316C860 346 830 399 724 399" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M714 389L722 399L714 409" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M364 274V316C364 346 394 399 396 399" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M386 389L398 399L386 409" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M612 274V346" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M602 336L612 348L622 336" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

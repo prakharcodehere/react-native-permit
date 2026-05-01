@@ -1,0 +1,170 @@
+{
+  "name": "react-native-permit",
+  "version": "0.1.0",
+  "description": "React Native permission hooks, modal UI, bottom sheet, screen flows, retry logic, onboarding stepper, and Jest mocks built on react-native-permissions.",
+  "author": {
+    "name": "prakharcodehere",
+    "url": "https://github.com/prakharcodehere"
+  },
+  "maintainers": [
+    {
+      "name": "prakharcodehere",
+      "url": "https://github.com/prakharcodehere"
+    }
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/prakharcodehere"
+  },
+  "homepage": "https://github.com/prakharcodehere/react-native-permit#readme",
+  "bugs": {
+    "url": "https://github.com/prakharcodehere/react-native-permit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakharcodehere/react-native-permit.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-permit",
+    "react-native-permission",
+    "react-native-permissions-ui",
+    "rn-permissions",
+    "rn-permission",
+    "permissions",
+    "permission",
+    "native-permissions",
+    "ios-permissions",
+    "android-permissions",
+    "permission-manager",
+    "permission-handler",
+    "permission-hook",
+    "permission-hooks",
+    "permission-ui",
+    "permission-modal",
+    "permission-bottom-sheet",
+    "permission-screen",
+    "permission-stepper",
+    "permission-onboarding",
+    "permission-flow",
+    "permission-request",
+    "permission-check",
+    "permission-status",
+    "permission-gate",
+    "permission-wrapper",
+    "permission-rationale",
+    "rationale",
+    "rationale-screen",
+    "rationale-modal",
+    "request-permission",
+    "check-permission",
+    "multiple-permissions",
+    "permissions-onboarding",
+    "permissions-flow",
+    "settings-redirect",
+    "retry",
+    "retry-permission",
+    "exhaustion",
+    "blocked-permission",
+    "open-settings",
+    "app-settings",
+    "camera",
+    "camera-permission",
+    "location",
+    "location-permission",
+    "background-location",
+    "notifications",
+    "notification-permission",
+    "provisional-notifications",
+    "microphone",
+    "microphone-permission",
+    "photo-library",
+    "photo-permission",
+    "limited-photos",
+    "contacts",
+    "contacts-permission",
+    "calendar",
+    "calendar-permission",
+    "bluetooth",
+    "bluetooth-permission",
+    "tracking",
+    "tracking-permission",
+    "face-id",
+    "speech-recognition",
+    "body-sensors",
+    "activity-recognition",
+    "android",
+    "ios",
+    "expo",
+    "expo-permissions",
+    "expo-permission",
+    "modal",
+    "bottom-sheet",
+    "sheet",
+    "dialog",
+    "settings",
+    "onboarding",
+    "react-native-permissions",
+    "mobile-permissions",
+    "app-permissions",
+    "runtime-permissions",
+    "privacy-permissions",
+    "typescript",
+    "jest",
+    "testing",
+    "mock",
+    "analytics",
+    "prakhar-dubey",
+    "prakharcodehere"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "react-native": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "assets",
+    "CHANGELOG.md",
+    "dist"
+  ],
+  "directories": {
+    "doc": "example",
+    "example": "example",
+    "test": "example"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./testing": {
+      "types": "./dist/testing/index.d.ts",
+      "default": "./dist/testing/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build",
+    "pack:check": "npm pack --dry-run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72",
+    "react-native-permissions": ">=4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}
