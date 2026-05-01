@@ -2,13 +2,17 @@
 
 All notable changes to `react-native-permit` will be documented in this file.
 
-## 0.1.3
+## 0.1.4
 
 - Added focused docs for comparison, use cases, props, and what app code no longer has to build.
 - Added a cleaner comparison SVG with expanded capability rows for `react-native-permissions`, manual app code, and `react-native-permit`.
 - Added the comparison SVG and short one-line product quotes to the README.
 - Added README contribution and project links.
 - Included `docs` in the published package so README links work from npm.
+
+## 0.1.3
+
+- Documentation release.
 
 ## 0.1.2
 
