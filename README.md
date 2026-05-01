@@ -223,7 +223,11 @@ See [API reference](./docs/API.md) for details.
 
 ## Package Size
 
-The npm package ships only:
+`react-native-permit` is intentionally small. It does not ship native iOS or
+Android code; native access stays in the `react-native-permissions` peer
+dependency.
+
+Published package contents are limited to runtime files, docs, and assets:
 
 - `dist`
 - `assets`
@@ -233,11 +237,40 @@ The npm package ships only:
 - `CHANGELOG.md`
 - `package.json`
 
-`src`, `example`, and `PACKAGE.md` are not published.
+Development-only files such as `src`, `example`, and `PACKAGE.md` are kept in
+the GitHub repository but excluded from the npm tarball.
+
+## Contributing
+
+Issues, ideas, docs fixes, examples, and pull requests are welcome.
+
+Useful contribution areas:
+
+- Permission examples for real app flows
+- Platform setup notes for iOS, Android, and Expo
+- Better built-in UI examples
+- Edge cases around blocked, limited, provisional, and exhausted states
+- Testing recipes with `react-native-permit/testing`
+
+Before opening a PR:
+
+```bash
+npm run typecheck
+npm pack --dry-run
+```
+
+## Links
+
+| Link | URL |
+| --- | --- |
+| GitHub repo | [github.com/prakharcodehere/react-native-permit](https://github.com/prakharcodehere/react-native-permit) |
+| npm package | [npmjs.com/package/react-native-permit](https://www.npmjs.com/package/react-native-permit) |
+| Issues | [GitHub issues](https://github.com/prakharcodehere/react-native-permit/issues) |
+| Author profile | [github.com/prakharcodehere](https://github.com/prakharcodehere) |
 
 ## Author
 
-prakharcodehere
+[prakharcodehere](https://github.com/prakharcodehere)
 
 ## License
 
